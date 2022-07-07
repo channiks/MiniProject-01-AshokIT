@@ -8,7 +8,7 @@ public interface ContactService {
 	
 	String upsert (Contact contact);
 
-	List<Contact> getAllContacts( );
+	List<Contact> getAllContacts();
 
 	Contact getContact (int cid);
 
